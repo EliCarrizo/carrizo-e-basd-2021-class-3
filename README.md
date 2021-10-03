@@ -1,5 +1,5 @@
 Become a Software Developer
 
 
-Problematic third week 03
+Problematic third week 03.
 
