@@ -154,8 +154,8 @@ a:hover.link {
     margin: 2%;
     background-color: hsl(211, 46%, 30%);
     color: black;
-
 }
+
 .aside {
     display: flex;
     width: 40%;
@@ -198,8 +198,9 @@ a:hover.link {
         font-size: 18px;
         text-align: center;
     }
+
     .image {
-        align-items:
+        align-items: center;
         width: 30%;
         height: 30%;
     }
