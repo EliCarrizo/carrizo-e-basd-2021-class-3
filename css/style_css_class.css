@@ -5,12 +5,80 @@
     background-color: white;
 }
 
-.social-media {
+.nav {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 100%;
+}
+
+.home-logo {
+    display: none;
+    justify-content: center;
+    padding: 2px;
+    width: 5%;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.link {
+    display: flex;
+    text-align: center;
+    width: 10%;
+    background-color: rgba(47, 230, 10, 0.808);
+    border-radius: 5px;
+}
+
+a:hover.link {
+    border-bottom-style: ridge;
+    border-bottom-color: rgb(78, 31, 31);
+    border-left-style: ridge;
+    border-left-color: rgb(78, 31, 31);
+    color: color:#7FFF00;;
+}
+
+@media screen and (max-width: 990px) {
+    .nav-links {
+        display: none;
+    }
+    .home-logo {
+        display: flex;
+    }
+    .date-time {
+        display: flex;
+        justify-content: flex-end;
+        width: 95%;
+    }
+
+}
+
+.search {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.date-time {
+    display: none;
+    justify-content: right;
+}
+
+.header {
     display: flex;
     width: 100%;
 }
 
-.social-media-app {
+.header-app {
     display: flex;
     width: 100%;
     flex-direction: row-reverse;
@@ -23,7 +91,6 @@
     text-decoration: none;
     color: white;
 }
-
 .ico-li {
     display: flex;
 }
@@ -31,6 +98,16 @@
 .ico-app {
     display: flex;
     width: 40%;
+}
+
+.h1 {
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: 23px;
+    background-image: url("../img/korea-flag.bmp");
+    font-size: 15px;
+    text-align: right;
+    margin: 15px;
 }
 
 .container {
@@ -53,37 +130,10 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-}
-.prueba {
-    display: flex;
-    width: 40%;
-    text-align: right;
-    background-color: yellow;
+    background-color: darkgray;
 }
 
-.ads {
-    display: none;
-}
-
-.nav-1 {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100%;
-    background-color:#000000;
-    color:white;
-    font-size: 13px;
-}
-
-a:hover {
-    color:#7FFF00;
-}
-
-section {
-    color:black;
-}
-
-.image {
+.image-art{
     width: 30%;
     height: 100%;
     border-radius: 50%;
@@ -92,30 +142,15 @@ section {
     align-content: center;
     align-items: center;
 }
-
-.car-img {
-    width: 30%;
-    height: 100%;
-    border-radius: 50%;
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-    align-items: center;a
+.aside {
+    display: flex;
+    width: 40%;
+    text-align: right;
+    background-color: yellow;
 }
 
-.bot-img {
-    width: 30%;
-    height: 100%;
-    border-radius: 50%;
-}
-.h1 {
-    background-repeat: no-repeat;
-    text-align: center;
-    background-size: 25px;
-    background-image: url("../img/korea-flag.bmp");
-    font-size: 17px;
-    text-align: center;
-    margin: 15px;
+.ads {
+    display: none;
 }
 
 .bottom-pag {
@@ -132,7 +167,7 @@ section {
     align-content: center;
     justify-content: center;
 }
-.rights-reserv {
+.rights-reserve {
     display: flex;
     width: 100%;
     font-size:10%;
@@ -147,6 +182,7 @@ section {
         text-align: center;
     }
     .image {
+        align-items:
         width: 30%;
         height: 30%;
     }
@@ -155,6 +191,27 @@ section {
     }
 
     .ads {
+        display: flex;
+    }
+    .search {
+        display: block;
+        width: 100%;
+    }
+
+    .search-nav {
+        display: flex;
+    }
+
+    .search-bar {
+        display: flex;
+        width: 20%;
+    }
+    .search-button {
+        display: flex;
+        width: 5%;
+    }
+
+    .data-time{
         display: flex;
     }
 
