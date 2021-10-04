@@ -72,7 +72,7 @@ a:hover.link {
 
 .date-time {
     display: none;
-    color: hsl(211, 41%, 37%))
+    color: hsl(211, 41%, 37%);
     justify-content: right;
 }
 
@@ -85,7 +85,7 @@ a:hover.link {
     display: flex;
     width: 100%;
     flex-direction: row-reverse;
-    background-color:#7CFC00;
+    background-color: hsl(211, 51%, 42%);
 }
 
 .app {
@@ -149,15 +149,18 @@ a:hover.link {
     align-items: center;
 }
 .second-title {
-    width: 45%;
+    width: 100%;
+    text-align: center;
     margin: 2%;
+    background-color: hsl(211, 46%, 30%);
+    color: black;
 
 }
 .aside {
     display: flex;
     width: 40%;
     text-align: right;
-    background-color: yellow;
+    background-color: hsl(211, 41%, 37%);
 }
 
 .ads {
@@ -168,22 +171,25 @@ a:hover.link {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background-color:#7CFC00;
+    background-color:hsl(229, 52%, 28%);
 }
 
 .bottom-log {
     display: flex;
-    flex-direction: ;
     width: 100%;
     align-content: center;
     justify-content: center;
+    background-color: hsl(229, 52%, 28%);
+    color: white;
 }
+
 .rights-reserve {
     display: flex;
     width: 100%;
     font-size:10%;
     align-content: center;
     justify-content: center;
+    background-color: hsl(215, 28%, 63%);
 }
 
 @media screen and (min-width: 720px) {
