@@ -1,11 +1,13 @@
-Become a Software Developer
+**Become a Software Developer**🚀
 
+>Problematic third week 03 🔧
 
-Problematic third week 03.
-
-** Link**
----------------------
-Thanks
+📌
+** https://elicarrizo.github.io/carrizo-e-basd-2021-class-3/**
+------------------------------------
+📢Thanks📢
 
 Author:
 *Eliana Carrizo*
+
+G-D-N
