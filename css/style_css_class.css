@@ -1,12 +1,10 @@
 .body {
+    display: block;
     width: 100%;
     height: 100%;
-    background-color: silver;
+    background-color: white;
 }
 
-.header1 {
-    background-color: rgb(128, 128, 128);
-}
 .social-media {
     display: flex;
     width: 100%;
@@ -16,7 +14,7 @@
     display: flex;
     width: 100%;
     flex-direction: row-reverse;
-    background-color:orange;
+    background-color:#7CFC00;
 }
 .app {
     width: 25%;
@@ -36,27 +34,49 @@
 }
 
 .container {
-    width: 55%;
-    font-size: 20%;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    border-style: solid;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
-nav {
-    color:black;
+.article {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width:100%;
+    margin: 5px;
+    font-size: 20%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.prueba {
+    display: flex;
+    width: 40%;
+    text-align: right;
+    background-color: yellow;
+}
+
+.ads {
+    display: none;
 }
 
 .nav-1 {
     display: flex;
+    flex-direction: row;
     width: 100%;
-    background-color:black;
+    height: 100%;
+    background-color:#000000;
     color:white;
-    border: black;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 a:hover {
-    color:orangered;
+    color:#7FFF00;
 }
 
 section {
@@ -65,29 +85,59 @@ section {
 
 .image {
     width: 30%;
-    height: 40%;
+    height: 100%;
     border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.car-img {
+    width: 30%;
+    height: 100%;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;a
 }
 
 .bot-img {
     width: 30%;
-    height: 40%;
+    height: 100%;
     border-radius: 50%;
 }
 .h1 {
     background-repeat: no-repeat;
     text-align: center;
-    background-size: 40px;
+    background-size: 25px;
     background-image: url("../img/korea-flag.bmp");
     font-size: 17px;
     text-align: center;
+    margin: 15px;
 }
+
 .bottom-pag {
-    bottom: 0%;
-    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color:#7CFC00;
+}
+
+.bottom-log {
+    display: flex;
+    flex-direction: ;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
 }
 .rights-reserv {
-    font-size: 10%;
+    display: flex;
+    width: 100%;
+    font-size:10%;
+    align-content: center;
+    justify-content: center;
 }
 
 @media screen and (min-width: 720px) {
@@ -99,6 +149,13 @@ section {
     .image {
         width: 30%;
         height: 30%;
+    }
+     .container {
+        display: flex;
+    }
+
+    .ads {
+        display: flex;
     }
 
 }
