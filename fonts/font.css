@@ -6,10 +6,18 @@
 }
 
 .h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20vw;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10vw;
     align-content:center;
     background-repeat:repeat-x;
+}
+
+.second-title {
+    font-size: 10%;
+    text-align: center;
+    text-decoration: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 .container {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
