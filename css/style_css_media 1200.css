@@ -18,7 +18,6 @@
 
     .header-app {
         list-style:none;
-
     }
 
     .aside {
@@ -28,8 +27,11 @@
     }
 
     .image-art {
-        width: 20%;
         display: flex;
+        width: 20%;
     }
 
+    .ads {
+        display: flex;
+    }
 }
